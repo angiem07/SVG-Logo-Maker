@@ -22,6 +22,7 @@ https://github.com/angiem07/SVG-Logo-Maker/assets/143362421/2cb15e9f-9fd3-493b-9
 To install Jest run `npm install jest` in terminal. \
 Then to test test run `npm test` in the terminal of the repo.
 
+![alt text](./assets/test-ss.JPG)
 
 ## Credits 
 References: \
@@ -34,3 +35,4 @@ ChatGPT
 
 Debug: \
 ChatGPT
+VSCode
