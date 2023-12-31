@@ -18,4 +18,9 @@ References: \
 https://github.com/elliechayo/svg-logo-maker/blob/main/lib/shapes.test.js \
 https://github.com/L10N37/OOP-SVG-Logo-Maker/blob/main/lib/shapes.js \
 https://github.com/ThomasCalle/Thomas-Object-Oriented-Programming-SVG-Logo-Maker/blob/main/lib/shapes.js \
-https://jestjs.io/docs/getting-started
+https://jestjs.io/docs/getting-started \
+https://docs.npmjs.com/creating-a-package-json-file \
+ChatGPT
+
+Debug: \
+ChatGPT
