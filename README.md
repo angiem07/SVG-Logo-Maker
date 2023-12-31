@@ -13,6 +13,11 @@ Finally, your svg file will be saved under the examples folder, under the name y
 
 See video walkthrough:
 
+
+https://github.com/angiem07/SVG-Logo-Maker/assets/143362421/2cb15e9f-9fd3-493b-915c-9386310e74ce
+
+
+
 ## Tests
 To install Jest run `npm install jest` in terminal. \
 Then to test test run `npm test` in the terminal of the repo.
