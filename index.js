@@ -7,7 +7,7 @@ const questions = [
   {
     type: "input",
     name: "text",
-    message: "Enter text: (up to three characters)",
+    message: "Enter text (up to three characters): ",
     validate: function (text) {
       return text.length <= 3 && text.length > 0;
     },
@@ -31,7 +31,7 @@ const questions = [
   {
     type: "input",
     name: "filename",
-    message: "Enter the desired filename (without extension):",
+    message: "Enter the desired filename (without extension), if not entered default to logo:",
     default: "logo", // default filename if the user doesn't provide one
   },
 ];
@@ -42,9 +42,9 @@ function userInput() {
 
 function writeToFile(filename, data) {
   try {
-    const filePath = path.join(__dirname, "..", `${filename}.svg`);
+    const filePath = path.join(__dirname, `${filename}.svg`);
     fs.writeFileSync(filePath, data);
-    console.log(`Generated ${filename}.svg`);
+    console.log(`Generated ${filename}.svg successfully`);
   } catch (error) {
     console.log(error);
   }
