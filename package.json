@@ -1,0 +1,19 @@
+{
+    "name": "svg-logo-makernpm",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+      "lib": "lib"
+    },
+    "dependencies": {
+      "inquirer": "6.3.1",
+      "jest": "^29.5.0"
+    },
+    "scripts": {
+      "test": "jest",
+      "start": "node index"
+    },
+    "author": "",
+    "license": ""
+  }
