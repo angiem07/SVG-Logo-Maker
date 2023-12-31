@@ -1,4 +1,4 @@
-const { Triangle, Square, Circle, Text } = require("./shapes");
+const { Triangle, Square, Circle, Text } = require("./lib/shapes");
 
 test("Testing Triangle class", () => {
   let shape = new Triangle();
